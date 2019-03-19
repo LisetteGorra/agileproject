@@ -4,7 +4,7 @@
     name: 'String';
     salary: 'Number';
     position: 'String';
-    shift: 'String'
+    shift: 'String';
     temp: true;
     perminent: false;
     salary: true;

@@ -1,0 +1,22 @@
+{
+  "name": "agileproject",
+  "version": "1.0.0",
+  "description": "scrum",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LisetteGorra/agileproject.git"
+  },
+  "keywords": [
+    "require"
+  ],
+  "author": "me",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LisetteGorra/agileproject/issues"
+  },
+  "homepage": "https://github.com/LisetteGorra/agileproject#readme"
+}
