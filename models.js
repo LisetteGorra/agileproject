@@ -5,6 +5,7 @@
     salary: 'Number';
     position: 'String';
     shift: 'String';
+<<<<<<< HEAD
     temp: true;
     perminent: false;
     salary: true;
@@ -44,6 +45,8 @@
     salary: 'Number';
     position: 'String';
     shift: 'String'
+=======
+>>>>>>> version6.0
     temp: true;
     perminent: false;
     salary: true;
