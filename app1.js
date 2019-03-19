@@ -41,7 +41,7 @@ app.set("view engine", "ejs");
 app.use(bodyParser.json());
 
 // When we need to initialize and use routing, use this. Remove the <> symbols and add your directory name 
-<<<<<<< HEAD
+
 // app.use ("/<<directory name here>>", require("./routes/<<directory name here>>")); 
 
 //create employee model and schema 
@@ -55,7 +55,7 @@ const EmployeeSchema = new Schema({
         required: [true, 'Identification field is requred']
     },
 });
-=======
+
 // app.use ("/<<directory name here>>", require("./routes/<<directory name here>>"));
 
 //error handling middleware if needed 
@@ -63,4 +63,4 @@ app.use(function(err, req, res, next){
     console.log("Now listening for requests");
 });
 
->>>>>>> version6.0
+
