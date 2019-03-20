@@ -18,5 +18,13 @@
   "bugs": {
     "url": "https://github.com/LisetteGorra/agileproject/issues"
   },
-  "homepage": "https://github.com/LisetteGorra/agileproject#readme"
+  "homepage": "https://github.com/LisetteGorra/agileproject#readme",
+  "dependencies": {
+    "body": "^5.1.0",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.19",
+    "parser": "^0.1.4"
+  },
+  "devDependencies": {}
 }
