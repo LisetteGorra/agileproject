@@ -16,7 +16,8 @@ app.post('/api', function(req, res){
 });
 
 //listen for requests 
-app.listen(process.env.PORT, process.env.IP, function(){
+app.listen(process.env.port || 4000, function(){
+// app.listen(process.env.PORT, process.env.IP, function(){
    console.log("Now listening for requests");
 });
 
