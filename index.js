@@ -1,11 +1,10 @@
 const express = require('express');
-const routes = require('./app.js');
 
 
 //set up express app
 const app = express();
 
-app.use(routes);
+app.use( require('./app.js'));
 
 app.get('/api', function(req, res){
     console.log('GET request');   
@@ -18,8 +17,8 @@ app.post('/api', function(req, res){
 });
 
 //listen for requests 
-app.listen(process.env.port || 8080, function(){
-// app.listen(process.env.PORT, process.env.IP, function(){
+
+app.listen(process.env.PORT, process.env.IP, function(){
    console.log("Now listening for requests");
 });
 
