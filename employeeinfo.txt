@@ -1,7 +1,13 @@
-{
-_id: ObjectID,
-Name: "Lisette Gorra",
+var userID = new Schema({
+    "name": "String",
+    "id": {
+        "name": "String",
+        "department": "String",
+        }
+    "description": "Punch-In",
+    "require" = "id";
+    "requireID = "true";
+});
 
 
 
-}
