@@ -16,13 +16,13 @@ const EmployeeSchema = new Schema({
 router.get('/employees', function(req, res){
     res.send({type: 'GET'});
 });
-//add a clock in to the data base
-router.post('/employees', function(req, res, next){
-    Employees.create(req.body).then(function(ninja){
-        res.send(Employees);
+//add an employee to the database
+router.post('/employees', function(req, res, next) {
+    Ninja.create(req.body).then(function(employee) {
+        res.send(employee);
+
     }).catch(next);
 
-});
 //set up express app 
 const app= express();
 
@@ -44,17 +44,6 @@ app.use(bodyParser.json());
 
 // app.use ("/<<directory name here>>", require("./routes/<<directory name here>>")); 
 
-//create employee model and schema 
-const EmployeeSchema = new Schema({
-    name: {
-        type: String, 
-        required: [true, 'Name field is requred']
-    },
-    identification: {
-        type: Number, 
-        required: [true, 'Identification field is requred']
-    },
-});
 
 // app.use ("/<<directory name here>>", require("./routes/<<directory name here>>"));
 
